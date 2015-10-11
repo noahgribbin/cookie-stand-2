@@ -1,0 +1,49 @@
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Salmon Cookies</title>
+</head>
+
+<body>
+  <h2 id='heading'>Pat's Salmon Cookies Sales Data</h2>
+  <div id='sales-salmon'>
+    <img class='salmon2' src="img/salmon.png" />
+  </div>
+  <form id='form'>
+    Location:<br>
+    <input type="text" name="location">
+    <br>
+    Min Customer:<br>
+    <input type="text" name="min customer">
+    <br>
+    Max Customer:<br>
+    <input type="text" name="max customer">
+    <br>
+    Average cookies per Customer:<br>
+    <input type="text" name="avg cookies cust">
+    <br>
+    <input type='button' name='submit' value="submit" onclick="submitForm()">
+  </form>
+
+  <table id='the-table' class='data'>
+    </tr id='table-row'>
+    <td id='table-data'>Locations</td>
+    <td>10am</td>
+    <td>11am</td>
+    <td>12pm</td>
+    <td>1pm</td>
+    <td>2pm</td>
+    <td>3pm</td>
+    <td>4pm</td>
+    <td>5pm</td>
+    <td>Totals</td>
+
+  </table>
+
+
+
+  <script src="app.js"></script>
+</body>
+</html>
